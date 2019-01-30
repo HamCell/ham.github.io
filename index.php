@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HamWeb</title>
+
+
+
+	<meta http-equiv='Content-Type' content='Type=text/html; charset=utf-8'/>
+	<meta name="description" content="Perkenalkan nama gua Ilham gua pelajar Kelas XI dari jurusan TKJ di Sekolah SMK N 3 KOTABUMI." />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="MUHAMMAD ILHAM" />
+	<meta property="og:description"        content="Perkenalkan nama gua Ilham gua pelajar Kelas XI dari jurusan TKJ di Sekolah SMK N 3 KOTABUMI." />
+	<meta property="og:image" content="globe.png" />
+	<meta property="og:image:secure_url" content="globe.png" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="400" />
+	<meta property="og:image:height" content="300" />
+	<meta property="og:image:alt" content="" />
+	<meta content='Indonesia' name='geo.placename'/>
+	<meta content='' name='Author'/>
+	<meta name="language" content="id" />
+	<link rel='icon' type='image/png' href='globe.png'>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+</head>
+<body>
+
+
+
+	<center><img class="gl"src="globe.png"></center>
+	<div class="name">MUHAMMAD ILHAM</div>
+	<div class="name-sm"></div>
+	<center><audio src="https://s1.vocaroo.com/media/download_temp/Vocaroo_s1nK3L73RTnn.mp3" autoplay loop controls></audio></center>
+	<nav class="nav wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+		<div class="link-page"><a class="link" href="#intro">INTRO</a></div>
+		<div class="link-page"><a class="link" href="#web">WEBSITE</a></div>
+		<div class="link-page"><a class="link" href="#intro">TENTANG</a></div>
+		<div class="link-page"><a class="link" href="#hub">KONTAK</a></div>
+	</nav>
+
+	<?php
+include('listweb.php');
+	?>
+
+
+
+	<div class="sl-1 wow bounceInRight" id="intro" data-wow-duration="2s" data-wow-delay="0.5s">
+
+
+		<div class="wrap-text">
+			<p class="hello">Hello Im ILHAM</p>
+			<div class="line-lab">
+
+			</div>
+			<p>Perkenalkan nama gua Ilham gua pelajar Kelas XI dari jurusan TKJ di Sekolah SMK N 3 KOTABUMI.<br/>Hobi gua adalah Coding/Programmers di Bagian Backend Developers.</p>
+
+			<p>Apa Itu Back end Developers??</p>
+			<p>Seorang back end developer bertugas untuk mengembangkan website di balik layar. Mengapa dibalik layar? Sebab, back end developer mengembangkan sesuatu yang tak tampak di suatu website seperti server dan database. Bahasa pemrograman yang pada umumnya digunakan oleh back end developer adalah PHP, Ruby, & Python. Dibutuhkan kerjasama yang cukup baik antara front end developer dan back end developer agar website dapat bekerja dengan optimal.</p>
+
+		</div>
+
+
+	</div>
+
+
+	<img class="sc" src="1.jpg"></img>
+
+	<div class="sl-2 hub wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.5s" style="border-top:solid #1a1a1a 3px;" id="hub">
+		<h1 class="label-box" style="color: white;">HUBUNGI</h1>
+		<div class="line-lab" style="margin-bottom: 1%;">
+
+		</div>
+
+
+		<div class="box-hub" style="background: #3f5c98;"><a class="link-hub" href="https://www.facebook.com/profile.php?id=100015675220430" target="_blank">Facebook</a></div>
+		<div class="box-hub" style="background: #00a356;"><a class="link-hub" href="https://wa.me/62895609910538">Whatsapp</a></div>
+		<div class="box-hub" style="background: #ea8a4a"><a class="link-hub">Instagram</a></div>
+
+		<div class="clear"></div>
+
+
+
+
+
+	</div>
+
+
+	<div class="foot">
+	Designed By <a href="http://hamsite.rf.gd" target="_blank" style="color: white;text-decoration: none;">ILHAM</a>
+
+	</div>
+
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="type.js"></script>
+
+
+	<script type="text/javascript" src="engine.js"></script>
+	<script type="text/javascript" src="wow.js"></script>
+<!--http://s000.tinyupload.com/?file_id=11949797061678057597
+https://s1.vocaroo.com/media/download_temp/Vocaroo_s1nK3L73RTnn.mp3
+-->
+</body>
+</html>

@@ -1,0 +1,29 @@
+=============================
+		        Nama : ilham
+		        umur : 16
+		        Askot : lampung
+		        =============================
+		        Nama : ilham
+		        umur : 16
+		        Askot : lampung
+		        =============================
+		        Nama : ilham
+		        umur : 16
+		        Askot : lampung
+		        =============================
+		        Nama : ilham
+		        umur : 16
+		        Askot : lampung
+		        =============================
+		        Nama : bowo
+		        umur : 10
+		        Askot : jakarta
+		        =============================
+		        Nama : INI NAMA
+		        umur : 20
+		        Askot : Banjar
+		        =============================
+		        Nama : Ilham
+		        umur : 17
+		        Askot : Bekasi
+		        

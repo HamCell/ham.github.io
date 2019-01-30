@@ -1,0 +1,431 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+background: #1a1a1a;
+margin: 0;
+padding: 0;
+overflow-y: scroll;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.batang
+{
+	width: 20px;
+	height: 700px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border: solid white 2px;
+	border-radius: 2px;
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.1);
+
+}
+.name
+{
+	font-size: 80px;
+	color: white;
+	font-family: 'Yatra One', cursive;
+	text-align: center;
+	font-weight: bold;
+padding-top: 2%;
+padding-bottom: 3px;
+word-wrap: break-word;
+
+
+
+
+
+}
+.name-sm
+{
+	font-size: 30px;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	font-weight: bold;
+padding-top: 0;
+padding-bottom: 1%;
+word-wrap: break-word;
+height: 150px;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+.gl
+{
+	width: 30%;
+	height: auto;
+	padding-top: 10px;
+
+
+}
+
+.link-page
+{
+display: block;
+	font-family: 'Exo 2', sans-serif;
+	background: #1a1a1a;
+	font-size: 30px;
+	width: inherit;
+	height: auto;
+	line-height: 60px;
+margin-top: 4px;
+margin-bottom: 4px;
+text-align: center;
+border: solid white 5px;
+border-radius: 3px;
+font-weight: bold;
+color: white;
+cursor: pointer;
+}
+
+.nav
+{
+margin: 0 auto;
+width: 300px;
+padding-bottom: 30px;
+}
+
+.heat
+{
+		font-family: 'Exo 2', sans-serif;
+	background: #1a1a1a;
+	font-size: 30px;
+	width: inherit;
+	height: auto;
+	line-height: 60px;
+margin-top: 4px;
+margin-bottom: 0;
+text-align: center;
+border-top: solid white 5px;
+border-left: solid white 5px;
+border-right: solid white 5px;
+border-bottom: 0;
+border-radius: 3px 3px 0 0;
+font-weight: bold;
+color: white;
+}
+.content
+{
+		font-family: 'Exo 2', sans-serif;
+	background: #1a1a1a;
+	font-size: 30px;
+	width: inherit;
+	height: 500px;
+	line-height: 60px;
+margin-top: 0;
+margin-bottom: 4px;
+text-align: center;
+border: solid white 5px;
+border-radius: 0 0 3px 3px;
+font-weight: bold;
+color: white;
+}
+.elem
+{
+	margin: 0 auto;
+width: 800px;
+display: none;
+}
+.sl-1
+{
+	width: 100%;
+	background: white;
+	height: auto;
+	padding: 20px;
+}
+.box-prod
+{
+	width: 300px;
+	height: 400px;
+padding: 30px;
+}
+
+.label-box
+{
+
+margin: 0 auto;
+
+text-align: center;
+width: 100%;
+font-weight: bold;
+	font-size: 50px;
+font-family: 'Exo 2', sans-serif;
+
+}
+.line-lab
+{
+	width: 100%;
+	height: 10px;
+	background: #1a1a1a;
+margin-top: 20px;
+}
+.sl-2
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.3);
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+
+	  padding-top: 1%;
+	  padding-bottom: 4%;
+	  padding-left: 20%;
+	  padding-right: 20%;
+	   display: flow-root;
+}
+.box
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 200px;
+	background: black;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+border-radius: 3px;
+border:solid white 1px;
+}
+.head
+{
+	width: 100%;
+	height: auto;
+	background: #428dec;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+	padding: 10px;
+}
+
+.hed
+{
+	width: 150px;
+	height: 50px;
+	background: transparent;
+	margin: 0 auto;
+}
+
+.hed img
+{
+	width: auto;
+	height: inherit;
+	position: relative;
+	float: left;
+
+}
+
+.hed h1
+{
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
+	font-family: 'Exo 2', sans-serif;
+	margin-left: 10px;
+	
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.box img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.box-f
+{
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+.wrap-text
+{
+
+	width: 100%;
+	padding: 20px;
+	height: auto;
+}
+
+.wrap-text p.hello
+{
+	font-size: 80px;
+	font-family: 'Exo 2', sans-serif;
+
+}
+
+.wrap-text p
+{
+	font-size: 25px;
+	font-family: 'Exo 2', sans-serif;
+margin: 20px;
+}
+.link
+{
+	text-decoration: none;
+	color: white;
+
+
+}
+.link:hover
+{
+	text-decoration: none;
+	color: white;
+	
+
+}
+.box-hub
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+border-radius: 3px;
+border:solid white 1px;
+}
+.link-hub
+{
+display: block;
+	font-family: 'Exo 2', sans-serif;
+	background: transparent;
+	font-size: 30px;
+	width: inherit;
+	height: auto;
+	line-height: 70px;
+margin-top: 4px;
+margin-bottom: 4px;
+text-align: center;
+border: solid transparent 5px;
+border-radius: 3px;
+font-weight: bold;
+color: white;
+cursor: pointer;
+}
+.hub
+{
+	background: rgba(0,0,0,0.1);
+}
+.foot
+{
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.3);
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	padding: 40px;
+	color: white;
+
+}
+.sc
+{
+	width: 100%;
+	height: auto;
+}
+@media only screen and (max-width: 860px) {
+
+    .name
+{
+	font-size: 40px;
+	color: white;
+	font-family: 'Yatra One', cursive;
+	text-align: center;
+	font-weight: bold;
+padding-top: 2%;
+padding-bottom: 3px;
+word-wrap: break-word;
+
+
+
+
+
+}
+.name-sm
+{
+	font-size: 15px;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	font-weight: bold;
+padding-top: 0;
+padding-bottom: 1%;
+word-wrap: break-word;
+height: 150px;
+margin-left: 10px;
+margin-right: 10px;
+
+
+
+  }
+
+  .gl
+{
+	width: 40%;
+	height: auto;
+	padding-top: 10px;
+	margin-bottom: 20px;
+
+
+}
+
+}
